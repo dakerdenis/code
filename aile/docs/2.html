@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geri ödəniş üçün orta referent qiymətlər</title>
+    <style>
+        html,
+        body {
+            margin: 0 auto;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(192, 192, 192);
+        }
+        
+        p {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .wrapper__test {
+            background-color: #fff;
+            max-width: 1400px;
+            margin: 0 auto;
+            height: 100%;
+            padding: 35px 25px;
+        }
+        
+        .wrapper__test-text {
+            color: #FC1818;
+            font-size: 25px;
+        }
+        
+        .wrapper__test-p {
+            padding-top: 25px;
+        }
+        
+        .wrapper__test-image-block {
+            margin: 0 auto;
+            margin-top: 25px;
+            height: 700px;
+            width: 800px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        }
+        
+        .block__image {
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
+        .block__image1 {
+            background-image: url('./files/test2-1.jpg');
+        }
+        
+        .block__image2 {
+            background-image: url('./files/test2-2.jpg');
+        }
+        
+        .wrapper__test-image-open {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        
+        .wrapper__test-image-open a {
+            color: #FC1818;
+            text-decoration: none;
+            border: 2px solid #FC1818;
+            padding: 10px 25px 10px 25px;
+            border-radius: 15px;
+            font-weight: 600;
+            background-color: #fff;
+        }
+        
+        .wrapper__test-image-open a:hover {
+            color: #fff;
+            background-color: #FC1818;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper__test">
+        <div class="wrapper__test-text">
+            Geri ödəniş üçün orta referent qiymətlər
+        </div>
+
+
+        <div class="wrapper__test-image-block">
+            <div class="block__image block__image1"></div>
+        </div>
+        <div class="wrapper__test-image-open">
+            <a target="_blank" href="./files/test2-1.jpg">Sənədi tam açmaq</a>
+        </div>
+        <div class="wrapper__test-image-block">
+            <div class="block__image block__image2"></div>
+        </div>
+        <div class="wrapper__test-image-open">
+            <a target="_blank" href="./files/test2-2.jpg">Sənədi tam açmaq</a>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

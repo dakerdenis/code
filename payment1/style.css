@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  body.lock {
+    overflow: hidden;
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-ms-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+  
+.form__data__element h3{
+    font-size: 16px;
+}
+
+.search__form{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #002f4918;
+    padding-bottom: 20px;
+}
+.form__button button{
+    background-color: #003049;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+}
+.form__button a{
+    display: block;
+    background-color: #003049;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+    margin: 0 auto;
+    width: 80%;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.excel__export{
+  background-color: #003049;
+  color: #fff;
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

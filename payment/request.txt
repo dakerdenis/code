@@ -1,0 +1,20 @@
+<form id="payment_form" ACTION="https://testmpi.3dsecure.az/cgi-bin/cgi_link" METHOD="POST">
+    <input name="AMOUNT" value="23" type="hidden">
+    <input name="CURRENCY" value="AZN" type="hidden">
+    <input name="TERMINAL" value="17202606" type="hidden">
+    <input name="TRTYPE" value="1" type="hidden">
+    <input name="TIMESTAMP" value="20230831085512" type="hidden">
+    <input name="NONCE" value="9d086c44470ece9a" type="hidden">
+    <input name="MERCH_URL" value="https://a-group.az/payment_test/" type="hidden">
+
+    <input name="ORDER" value="20230831085512" type="hidden">
+    <input name="DESC" value="AS-F 182/23" type="hidden">
+    <input name="MERCH_NAME" value="A-Qroup" type="hidden">
+    <input name="EMAIL" value="dakershteyn@a-group.az" type="hidden">
+    <input name="COUNTRY" value="AZ" type="hidden">
+    <input name="MERCH_GMT" value="+4" type="hidden">
+    <input name="BACKREF" value="https://a-group.az/payment_test/callback.php" type="hidden">
+    <input name="P_SIGN" value="" type="hidden">
+
+    <input alt="Submit" type="submit">
+</form>

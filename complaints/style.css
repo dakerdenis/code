@@ -1,0 +1,57 @@
+.resText{
+    font-size: 16px;
+    margin-top: 10%;
+    width: 50%;
+}
+#response{
+    width: 50%;
+ display: flex;
+ justify-content: space-between;
+}
+.file_complaint_link{
+    display: none;
+    visibility: hidden;
+}
+.file_complaint_link:last-child{
+    display: initial;
+    visibility: visible;
+}
+.file_complaint_name{
+
+}
+#responce{
+    justify-content: space-evenly;
+    width: 90%;
+}
+#responText{
+    width: 100%;
+}   
+#responText h4{
+    padding: 15px;
+}
+#responText h4:nth-child(1){
+    background-color: #e3e3e3;
+}
+
+#responText h4:nth-child(3){
+    background-color: #e3e3e3;
+}
+#responDate{
+  
+}
+#responDate h4:nth-child(1){
+    background-color: #e3e3e3;
+}
+#responDate h4:nth-child(3){
+    background-color: #e3e3e3;
+}
+#responDate h4{
+    padding: 15px;
+}
+#responFile a{
+    color: #FC1818;
+    font-size: 22px;
+}
+.form_complaint_status{
+    width: 50%;
+}

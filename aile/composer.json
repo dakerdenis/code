@@ -1,0 +1,16 @@
+{
+    "name": "dead_stepller/aile-aqrup",
+    "authors": [
+        {
+            "name": "Murat Alibekov",
+            "email": "murat.alibekov@protonmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    },
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}

@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-ms-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.main__container {
+    max-width: 400px;
+    margin: 0 auto;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.block__main__image {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.block__main__image img{
+    width: 100%;
+}
+.block__main__content {
+    min-height: calc(100vh - 200px);
+    background-image: url('./imgs/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+.main__content__content {
+    width: 100%;
+    height: 100%;
+}
+.main__content__name p{
+    font-size: 10pt;
+    font-weight: 500;
+    color: #bb1a1a;
+}
+.main__content__name h3{
+    font-size: 16pt;
+    font-weight: 700;
+    color: #bb1a1a;
+    margin-top: 3px;
+}
+.main__content__elements__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.main__content__element {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.element__image {
+    width: 30px;
+    color: #bb1a1a;
+    font-size: 17px;
+}
+.fa {
+}
+.fa-heartbeat {
+}
+.element__desc {
+    color: #5b5b5b;
+}
+.element__desc__name {
+    
+    font-size: 10pt;
+    font-weight: 500;
+
+}
+.element__desc__value {
+    font-size: 10pt;
+    font-weight: 700;
+    margin-top: 4px;
+
+}
+.main__content__additional {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.additional__element {
+    width: 31%;
+    display: flex;
+    align-items: center;
+}
+.additional__element:hover i{
+  color: #23ccef;
+}
+.additional__element:hover .additional__element__desc{
+  color: #23ccef;
+}
+.additional__element__image{
+    width: 30px;
+    color: #bb1a1a;
+    font-size: 20px;
+}
+.additional__element img{
+
+    width: 80px;
+    height: 50px;
+}
+.additional__element__desc{
+    color: #bb1a1a;
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+
+.red a{
+    color: #bb1a1a;
+}
+.red a:hover{
+  color: #23ccef;
+}
+.element__desc__value_date{
+  display: flex;
+}
+.element__desc__value_date p {
+  display: block;
+}
+
+
+.main__container_medplan{
+  background-image: url('./imgs/bg.png');
+  background-size: contain;
+  background-position: center;
+  min-height: 100%;
+
+}
+.main__container__logo_name {
+
+}
+.logo_name_wrappeersdfs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  height: 120px;
+}
+.main__container__logo {
+
+}
+.main__container__logo_desc {
+  width: 140px;
+  
+}
+.main__container__logo_desc img {
+  width: 100%;
+}
+.main__content__description {
+  width: 90%;
+  margin: 0 auto;
+  color: #bb1a1a;
+  font-weight: 600;
+  font-size: 23px;
+  height: 30px;
+}
+.main__content__elements_wrapper {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.main__content_daker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+ .circle{
+  margin-right: 10px;
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  background-color: #bb1a1a;
+}
+.main__content_daker p {
+  display: block;
+  text-align: left;
+
+  font-size: 16px;
+  line-height: 20px;
+
+}

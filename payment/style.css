@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-ms-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+
+.placeholder{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first_form {
+  width: 550px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.second_form{
+  width: 550px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+
+.static_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden_form {
+  display: none;
+  visibility: hidden;
+}
+
+.open_form {
+  display: flex;
+  visibility: visible;
+}
+
+.form__main__static .form__element {
+  margin-top: 20px;
+}
+
+.form__main__static .form__element__button {
+  margin-top: 20px;
+}
+
+.form_static__element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.form__element__icon{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.form__element__icon img {
+  width: 70px;
+  height: 70px;
+}
+.form_static__element p:first-child {
+  width: 60%;
+}
+
+.form_static__element p:last-child {
+  width: 38%;
+}
+
+.form__element {
+  width: 100%;
+}
+
+.form__element__desc {
+  font-size: 15px;
+  margin-bottom: 7px;
+  color: rgba(87, 86, 86, 1);
+  margin-top: 20px;
+}
+.form__additional__desc{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgba(87, 86, 86, 1);  
+}
+.line__placeholder{
+  width: 50%;
+  margin: 0 auto;
+  height: 1.5px;
+  background-color: rgba(188, 26, 26, 1);
+
+}
+
+.form__element__input {
+  width: 100%;
+  height: 30px;
+  color: rgba(87, 86, 86, 1);
+}
+
+.form__element__input input {
+
+  width: 100%;
+  height: 100%;
+  border: 1px solid #6e6e6e88;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form__element__button {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: #6e6e6e1c;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.form__element__button button {
+  cursor: pointer;
+  background-color: rgba(188, 26, 26, 1);
+  color: #fff;
+  padding: 5px 30px;
+  border: 1px solid rgba(188, 26, 26, 1);
+}
+
+.error_p {
+  display: block;
+  margin-top: 10px;
+  color: red;
+}
+
+
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+/*******************\
+    Loading Roller
+\*******************/
+@-webkit-keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.lds-roller {
+  position: relative;
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+}
+.lds-roller div {
+  -webkit-animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+          animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 32px 32px;
+}
+.lds-roller div:after {
+  position: absolute;
+  display: block;
+  background: #00539f;
+  border-radius: 50%;
+  content: " ";
+  margin: -3px 0 0 -3px;
+  height: 6px;
+  width: 6px;
+}
+.lds-roller div:nth-child(1) {
+  -webkit-animation-delay: -0.036s;
+          animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 50px;
+  left: 50px;
+}
+.lds-roller div:nth-child(2) {
+  -webkit-animation-delay: -0.072s;
+          animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 54px;
+  left: 45px;
+}
+.lds-roller div:nth-child(3) {
+  -webkit-animation-delay: -0.108s;
+          animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 57px;
+  left: 39px;
+}
+.lds-roller div:nth-child(4) {
+  -webkit-animation-delay: -0.144s;
+          animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 58px;
+  left: 32px;
+}
+.lds-roller div:nth-child(5) {
+  -webkit-animation-delay: -0.18s;
+          animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 57px;
+  left: 25px;
+}
+.lds-roller div:nth-child(6) {
+  -webkit-animation-delay: -0.216s;
+          animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 54px;
+  left: 19px;
+}
+.lds-roller div:nth-child(7) {
+  -webkit-animation-delay: -0.252s;
+          animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 50px;
+  left: 14px;
+}
+.lds-roller div:nth-child(8) {
+  -webkit-animation-delay: -0.288s;
+          animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 45px;
+  left: 10px;
+}
+
+.callback_input{
+  width: 150px;
+}

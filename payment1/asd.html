@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css" />
+    <link
+        href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css"
+        rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script
+        src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
+</head>
+
+<body>
+    <form class="search__form" method="post">
+        <div class="form__data__element">
+            <h3>Начало</h3>
+            <div class="ui calendar" id="example2">
+                <div class="ui input left icon">
+                    <i class="calendar icon"></i>
+                    <input type="text" placeholder="Date" name="date_start">
+                </div>
+            </div>
+
+        </div>
+        <div class="form__data__element">
+            <h3>Конец</h3>
+            <div class="ui calendar" id="example3">
+                <div class="ui input left icon">
+                    <i class="calendar icon"></i>
+                    <input type="text" placeholder="Date" name="date_end">
+                </div>
+            </div>
+        </div>
+
+        <div class="form__button">
+            <button type="submit">Поиск</button>
+        </div>
+    </form>
+
+    <form action="./generate_excel.php" method="post">
+        <input type="text" value="" name="" id="">
+        <input type="text" value="" name="" id="">
+    </form>
+
+    <script>
+        $('#example2').calendar({
+            type: 'date'
+        });
+        $('#example3').calendar({
+            type: 'date'
+        });
+    </script>
+</body>
+
+</html>
