@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Noto Sans", sans-serif;
+
+}
+
+.login__wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfdfdf;
+}
+.login__container {
+    width: 20.2%;
+
+    
+}
+.login__logotype {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.login__logotype  img {
+    width: 23%;
+}
+.login__content_wrapper {
+    width: 100%;
+    padding: 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.login__form__element {
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.form__element_desc {
+    width: 40%;
+}
+.form__element_input {
+    width: 60%;
+    border: 1px solid #0c1c35;
+    padding: 5px;
+    border-radius: 2px;
+}
+.form__element_input input {
+    width: 100%;
+}
+.login__from_button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login__from_button button {
+  font-size: 19px;
+  color: #fff;
+  background-color: #d71f24;
+  padding: 10px 55px 10px 55px;
+  border-radius: 10px;
+  border: 2px solid #d71f24;
+  transition: ease-in-out 0.2s;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login__from_button button:hover{
+    background-color: #FFF;
+    color:#d71f24;
+}
+
+
+.pwd {
+  background-color: #111625;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  position: relative;
+  width: 332px;
+
+}
+.pwd input {
+  background:transparent ;
+  border: none;
+  font-size: 1.2em;
+  color: #5358b9;
+}
+.pwd input:focus {
+  outline: none;
+}
+.pwd i {
+  font-size: 1.4em;
+  padding: 1em;
+  color: #dbdbdb;
+  transition: 0.3s;
+
+}
+
+.pwd .fa-eye, 
+.pwd .fa-eye-slash{
+  cursor: pointer;
+  color: #5358b9;
+  width: 1.2em;
+}
+.pwd .overlay{
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  background: #dbdbdb;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  z-index: 0;
+  transition: 0.5s ease-in-out;
+}
+.pwd .overlaycover{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  right: 0;
+}
+.pwd > div:nth-child(2){
+  position: relative;
+}
+.created__by_block{
+  position: absolute;
+  bottom: 5px;
+   right: 2%;
+  z-index: 100;
+  color: #11162544;
+  font-size: 12px;
+}
+.created__by_block a{
+  color: #11162544;
+  font-size: 12px;
+}
